@@ -1,0 +1,48 @@
+Hetionet Setup & Data Collection Summary
+=======================================
+
+Total nodes: 47033
+Total edges: 2250198
+Total drug-disease links: 0
+
+Node type counts:
+kind
+Gene                   20945
+Biological Process     11381
+Side Effect             5734
+Molecular Function      2884
+Pathway                 1822
+Compound                1552
+Cellular Component      1391
+Symptom                  438
+Anatomy                  402
+Pharmacologic Class      345
+Disease                  137
+
+Edge type counts:
+edge_type
+GpBP        559504
+AeG         526407
+Gr>G        265672
+GiG         147164
+CcSE        138944
+AdG         102240
+AuG          97848
+GpMF         97222
+GpPW         84372
+GpCC         73566
+GcG          61690
+CdG          21102
+CuG          18756
+DaG          12623
+CbG          11571
+DuG           7731
+DdG           7623
+CrC           6486
+DlA           3602
+DpS           3357
+PCiC          1029
+CtD            755
+DrD            543
+CpD            390
+metaedge         1
