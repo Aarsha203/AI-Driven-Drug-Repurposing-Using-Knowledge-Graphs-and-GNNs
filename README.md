@@ -10,3 +10,29 @@ Unlike traditional structure-based approaches, this framework leverages biologic
 *Predict novel therapeutic indications for approved drugs
 *Validate predictions using literature evidence
 *Visualize graph structures and learned embeddings
+
+Workflow
+Phase 1 — Data Collection
+Download Hetionet node and edge files
+Explore graph statistics
+Characterize node and edge distributions
+Phase 2 — Knowledge Graph Construction
+Filter biologically relevant edge types
+Create node index mappings
+Generate positive and negative drug–disease pairs
+Build PyTorch Geometric graph objects
+Phase 3 — GNN Training
+Two-layer Graph Convolutional Network (GCN)
+Link prediction framework
+Binary cross-entropy loss
+Adam optimizer
+AUROC and AUPRC evaluation
+Phase 4 — Drug Repurposing Prediction
+Score unknown drug–disease pairs
+Rank high-confidence predictions
+Literature-based validation using PubMed
+Phase 5 — Visualization and Reporting
+Knowledge graph visualization
+Drug–disease interaction heatmaps
+Embedding visualization (t-SNE / UMAP)
+Final report generation
