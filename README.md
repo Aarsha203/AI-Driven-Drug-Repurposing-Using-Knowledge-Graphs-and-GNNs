@@ -4,9 +4,9 @@ This repository presents a complete end-to-end computational drug repurposing pi
 
 Unlike traditional structure-based approaches, this framework leverages biological relationships among drugs, diseases, genes, pathways, and other biomedical entities to discover novel drug–disease associations.
 --Objectives
-Construct a biomedical knowledge graph from Hetionet
-Generate node features and graph representations
-Train a Graph Neural Network for drug–disease link prediction
-Predict novel therapeutic indications for approved drugs
-Validate predictions using literature evidence
-Visualize graph structures and learned embeddings
+*Construct a biomedical knowledge graph from Hetionet
+*Generate node features and graph representations
+*Train a Graph Neural Network for drug–disease link prediction
+*Predict novel therapeutic indications for approved drugs
+*Validate predictions using literature evidence
+*Visualize graph structures and learned embeddings
