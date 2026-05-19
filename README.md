@@ -3,3 +3,10 @@ AI-driven drug repurposing framework leveraging biomedical knowledge graphs and 
 This repository presents a complete end-to-end computational drug repurposing pipeline based on biomedical knowledge graphs and Graph Neural Networks (GNNs). The workflow integrates heterogeneous biomedical relationships from Hetionet and applies graph representation learning for link prediction to identify potential new therapeutic indications for existing drugs.
 
 Unlike traditional structure-based approaches, this framework leverages biological relationships among drugs, diseases, genes, pathways, and other biomedical entities to discover novel drug–disease associations.
+--Objectives
+Construct a biomedical knowledge graph from Hetionet
+Generate node features and graph representations
+Train a Graph Neural Network for drug–disease link prediction
+Predict novel therapeutic indications for approved drugs
+Validate predictions using literature evidence
+Visualize graph structures and learned embeddings
